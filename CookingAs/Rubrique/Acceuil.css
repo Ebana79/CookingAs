@@ -1,0 +1,500 @@
+@import url(../Rubrique/Set/fonts/PoliceA.TTF);
+
+*{
+    padding: 0;
+    margin: 0;
+    box-sizing: border-box;
+}
+
+/*** Body customized ***/
+body {
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-attachment: fixed;
+    margin: 0;
+    padding: 0;
+    z-index: -1;
+    background-image: url(../Rubrique/Set/img/pizza.jpg);
+    animation: 20s Change infinite;
+    -webkit-animation: 20s Change infinite;
+}
+
+/* @keyframes Change {
+    0% {
+        opacity: initial;
+    }
+
+    10%, 20%, 25%, 30%, 35%, 40%, 45% {
+        opacity: initial;
+        background-image: url(../Rubrique/Set/img/IMG_6314.jpg);
+    }
+
+    50%, 55%, 60%, 65%, 70%, 75% {
+        opacity: initial;
+        background-image: url(../Rubrique/Set/img/pizza.jpg);
+    }
+
+    80%, 85%, 90%, 95%, 100% {
+        opacity: initial;
+        background-image: url(../Rubrique/Set/img/01.jpg);
+    }
+} */
+
+
+/* ------------------------- */
+        /*** Nav Bar ***/
+/* ------------------------- */
+header {
+    position: fixed;
+    margin-top: -26vh;
+    z-index: 9999;
+    width: 100%;
+    height: 110px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    backdrop-filter: blur(27px);
+    box-shadow: 0 0 8px rgb(56, 56, 56);
+}
+
+h1 {
+    margin-left: -45vh;
+    font-family: 'PoliceA.TTF';
+    font-size: 2.5rem;
+    margin-top: 50px;
+    transition: all 0.9s ease-in;
+    text-transform: capitalize;
+    -webkit-transition: all 1s ease-in;
+    -moz-transition: all 1s ease-in;
+    -ms-transition: all 1s ease-in;
+    -o-transition: all 1s ease-in;
+}
+
+h1:hover {
+    font-size: 3rem;
+    transition: all 0.9s ease-in;
+    cursor: pointer;
+    -webkit-transition: all 0.9s ease-in;
+    -moz-transition: all 0.9s ease-in;
+    -ms-transition: all 0.9s ease-in;
+    -o-transition: all 0.9s ease-in;
+}
+
+nav ul {
+    list-style: none;
+    margin-bottom: 40px;
+}
+
+nav ul li {
+    display: inline-block;
+    transition: all 1s;
+}
+
+nav ul li:hover {
+    background: #ffffffb6;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    backdrop-filter: blur(5px);
+}
+nav ul li a {
+    color: rgb(0, 0, 0);
+    font-weight: bold;
+    margin: 20px;
+    padding: 3px;
+    text-decoration: none;
+    transition: all 30s ease-in-out;
+    -webkit-transition: all 30s ease-in-out;
+    -moz-transition: all 30s ease-in-out;
+    -ms-transition: all 30s ease-in-out;
+    -o-transition: all 30s ease-in-out;
+    font-size: 18px;
+    padding: 2px;
+}
+
+nav ul li a:hover {
+    text-decoration: underline;
+    padding: 2px;
+}
+
+/* -------------------------------------------------- */
+/*** Style de la Section de description du site 01 ***/
+/* -------------------------------------------------- */
+
+.Présentation {
+    margin-top: 26vh;
+    display: flex;
+    align-items: stretch;
+    justify-content: space-between
+}
+
+.Carreau01 {
+    backdrop-filter: blur(27px);
+    width: 520px;
+    height: 420px;
+    margin: 40px;
+    padding: 5px;
+    box-shadow: 0 0 8px 2px #3333339c;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 2rem;
+}
+
+.Présentation .Carreau01 h2 {
+    font-size: 4.5rem;
+    color: orange;
+    margin: 0px;
+    padding: 2px;
+    font-family: "PoliceA.TTF";
+}
+
+.Présentation .Carreau01 p {
+    font-size: 2rem;
+    margin: 0px;
+    padding: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+.Présentation .Carreau01 font {
+    font-family: "PoliceA.TTF";
+}
+
+.Présentation .Carreau02 {
+    backdrop-filter: blur(27px);
+    width: 520px;
+    height: 420px;
+    margin: 40px;
+    padding: 5px;
+    box-shadow: 0 0 8px 2px #3333339c;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    font-size: 2rem;
+}
+
+.Présentation .Carreau02 h2 {
+    font-size: 4.5rem;
+    color: orange;
+    margin: 0px;
+    padding: 2px;
+    font-family: "PoliceA.TTF";
+}
+
+.Présentation .Carreau02 p {
+    font-size: 2rem;
+    margin: 0px;
+    padding: 2px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    color: #fff;
+}
+
+.Plats {
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+}
+
+ .name {
+    font-family: "PoliceA.TTF";
+}
+
+/* -------------------------------------------------- */
+/*** Section de description du site 02 ***/
+/* -------------------------------------------------- */
+
+.Paragraph {
+    margin: 0;
+    padding: 0;
+    text-align: left;
+}
+
+.Slogan {
+    padding: 10px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+
+.Paragraph .Slogan h2 {
+    font-family: "PoliceA.TTF";
+    font-size: 4rem;
+    color: black;
+    margin: 0;
+    padding: 0;
+    transition: all 1s;
+}
+
+.Paragraph .Slogan h2:hover {
+    color: #fff;
+}
+
+.Paragraph .Slogan h2 font {
+    font-family: "PoliceA.TTF";
+    font-size: 4rem;
+    text-align: center;
+    color:rgb(255, 217, 0);
+}
+
+.Paragraph .Slogan p {
+    margin: 0;
+    font-size: 2rem;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    width: 55%;
+}
+
+.Paragraph .Slogan p:hover {
+    background-color: #ffffff;
+}
+
+hr {
+    background-color: black;
+    width: 90%;
+}
+
+/* -----------------------------------------------------------------------*/
+/*** Section de visionage d'img de plat que le site propose de refaire ***/
+/* -----------------------------------------------------------------------*/
+
+.img_nom-de-Plat {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    margin: 10px;
+    padding: 5px;
+    width: 97.5%;
+    height: auto;
+    backdrop-filter: blur(5px);
+    box-shadow: 0 0 8px 2px #3333339c;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+}
+
+.img_nom-de-Plat .img_Plat01 {
+    background: #ffffffb6;
+    box-shadow: 0 0 8px 2px #3333339c;
+    border-radius: 8px;
+    width: 255px;
+    height: auto;
+    margin: 10px;
+    padding: 0;
+    backdrop-filter: blur(4px);
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: space-around;
+}
+
+.img_nom-de-Plat .img_Plat01 button {
+    border: none;
+    border-radius: 4px;
+    -webkit-border-radius: 4px;
+    -moz-border-radius: 4px;
+    -ms-border-radius: 4px;
+    -o-border-radius: 4px;
+    background-color: blue;
+    color: black;
+    width: 65%;
+    height: 30px;
+    margin: 5px;
+    padding: 2px;
+    box-shadow: 0 0 8px 2px #3333339c;
+    transition: 1s alternate ease-in;
+    -webkit-transition: 1s alternate ease-in;
+    -moz-transition: 1s alternate ease-in;
+    -ms-transition: 1s alternate ease-in;
+    -o-transition: 1s alternate ease-in;
+}
+
+.img_nom-de-Plat .img_Plat01 button a:hover {
+    color: red;
+}
+
+.img_nom-de-Plat .img_Plat01 button a {
+    text-decoration: none;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    color: black;
+    font-size: 90%;
+}
+
+.img_nom-de-Plat .img_Plat01 button:hover {
+    background-color: rgb(22, 84, 255);
+}
+
+.img_nom-de-Plat .img_Plat01 img {
+    width: 100%;
+    height: auto;
+}
+
+.img_nom-de-Plat .img_Plat01 h3 {
+    font-family: "PoliceA.TTF";
+    font-size: 21.5px;
+    text-align: center;
+}
+
+.img_nom-de-Plat .img_Plat01 p {
+    text-align: center;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+/* ---------------------------------- */
+/* ***section du dégradé du site*** */
+/* ---------------------------------- */
+
+.Dégradé {
+    width: 100%;
+    height: 100px;
+    background-image: linear-gradient(180deg, transparent, #00000048, #00000091, #000000bb, #000000d5, #000, #fff);
+    margin-top: -160vh;
+    position: fixed;
+    animation: float 10s ease-in infinite;
+    -webkit-animation: float 10s ease-in infinite;
+    overflow: hidden;
+}
+
+@keyframes float {
+    0% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+
+    50% {
+        transform: translateY(50%);
+        -webkit-transform: translateY(50%);
+        -moz-transform: translateY(50%);
+        -ms-transform: translateY(50%);
+        -o-transform: translateY(50%);
+}
+
+    100% {
+        transform: translateY(0);
+        -webkit-transform: translateY(0);
+        -moz-transform: translateY(0);
+        -ms-transform: translateY(0);
+        -o-transform: translateY(0);
+}
+}
+
+/* -----------------------------*/ 
+/* **Footer le pied de page** */
+/* -----------------------------*/ 
+
+footer {
+    background-color: #000000c0;
+    backdrop-filter: blur(27px);
+    width: 100%;
+    height: auto;
+    margin: 0px;
+    padding: 10px;
+    display: flex;
+    align-items: center;
+    flex-direction: row;
+    flex-wrap: wrap;
+}
+
+footer .thanks {
+    text-align: center;
+    margin-left: 5vh;
+}
+
+footer .thanks h3 {
+    color: #fff;
+    text-decoration-style: uppercase;
+    -moz-text-decoration-style: uppercase;
+    font-size: 3rem;
+    margin: 10px;
+    font-family: "PoliceA.TTF";
+}
+
+footer .thanks p {
+    color: #fff;
+    font-size: 2rem;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+}
+
+.reseau_social {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    justify-content: flex-start;
+    width: 100%;
+}
+
+.reseau_social span {
+    color: #fff;
+    margin: 10px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    font-size: 1.5rem;
+    transition: all 1s;
+    -webkit-transition: all 1s ;
+    -moz-transition: all 1s ;
+    -ms-transition: all 1s ;
+    -o-transition: all 1s ;
+    width: 667px;
+    border-radius: 100px;
+    -webkit-border-radius: 100px;
+    -moz-border-radius: 100px;
+    -ms-border-radius: 100px;
+    -o-border-radius: 100px;
+    padding: 8px;
+    text-align: center;
+}
+
+.reseau_social span:hover {
+    color: #000;
+    background-color: #fff;
+}
+
+footer img {
+    width: 300px;
+    height: auto;
+}
+
+/* ---------------------------- */
+/* ***lien vers nos réseaux socio*** */
+/* -------------------------- */
+
+.reseau_link {
+    display: inline-block;
+}
+
+.reseau_link ul {
+    list-style: none;
+}
+
+.reseau_link ul li {
+    display: inline-block;
+}
+
+.reseau_link ul li a {
+    text-decoration: none;
+    -moz-text-decoration: none;
+    color: rgb(255, 255, 255);
+    margin:15px;
+    font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
+    border-radius: 8px;
+    -webkit-border-radius: 8px;
+    -moz-border-radius: 8px;
+    -ms-border-radius: 8px;
+    -o-border-radius: 8px;
+    padding: 4px;
+}
+
+.reseau_link ul li a:hover {
+    background-color: #f0c400;
+}
